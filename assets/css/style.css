@@ -1,10 +1,3 @@
-/**
-* Template Name: iPortfolio - v1.2.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -845,25 +838,31 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.portfolio-details-1, .portfolio-details-2, .portfolio-details-3{
   padding-top: 0;
 }
 
-.portfolio-details .portfolio-details-container {
+.portfolio-details-1 .portfolio-details-container, .portfolio-details-2 .portfolio-details-container,
+.portfolio-details-3 .portfolio-details-container{
   position: relative;
 }
 
-.portfolio-details .portfolio-details-carousel {
+.portfolio-details-1 .portfolio-details-carousel, .portfolio-details-2 .portfolio-details-carousel,
+.portfolio-details-3 .portfolio-details-carousel {
   position: relative;
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details-1 .portfolio-details-carousel .owl-nav, .portfolio-details-1 .portfolio-details-carousel .owl-dots,
+.portfolio-details-2 .portfolio-details-carousel .owl-nav, .portfolio-details-2 .portfolio-details-carousel .owl-dots,
+.portfolio-details-3 .portfolio-details-carousel .owl-nav, .portfolio-details-3 .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot {
+.portfolio-details-1 .portfolio-details-carousel .owl-dot,
+.portfolio-details-2 .portfolio-details-carousel .owl-dot,
+.portfolio-details-3 .portfolio-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 10px 0 0;
   width: 12px;
@@ -872,11 +871,15 @@ section {
   background-color: #ddd !important;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
+.portfolio-details-1 .portfolio-details-carousel .owl-dot.active,
+.portfolio-details-2 .portfolio-details-carousel .owl-dot.active,
+.portfolio-details-3 .portfolio-details-carousel .owl-dot.active {
   background-color: #149ddd !important;
 }
 
-.portfolio-details .portfolio-info {
+.portfolio-details-1 .portfolio-info,
+.portfolio-details-2 .portfolio-info,
+.portfolio-details-3 .portfolio-info {
   padding: 30px;
   position: absolute;
   right: 0;
@@ -886,7 +889,9 @@ section {
   z-index: 2;
 }
 
-.portfolio-details .portfolio-info h3 {
+.portfolio-details-1 .portfolio-info h3,
+.portfolio-details-2 .portfolio-info h3,
+.portfolio-details-3 .portfolio-info h3 {
   font-size: 22px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -894,36 +899,50 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.portfolio-details-1 .portfolio-info ul,
+.portfolio-details-2 .portfolio-info ul,
+.portfolio-details-3 .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details-1 .portfolio-info ul li + li,
+.portfolio-details-2 .portfolio-info ul li + li,
+.portfolio-details-3 .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.portfolio-details-1 .portfolio-description,
+.portfolio-details-2 .portfolio-description,
+.portfolio-details-3 .portfolio-description {
   padding-top: 50px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.portfolio-details-1 .portfolio-description h2,
+.portfolio-details-2 .portfolio-description h2,
+.portfolio-details-3 .portfolio-description h2 {
   width: 50%;
   font-size: 26px;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.portfolio-details-1 .portfolio-description p,
+.portfolio-details-2 .portfolio-description p,
+.portfolio-details-3 .portfolio-description p {
   padding: 0;
 }
 
 @media (max-width: 768px) {
-  .portfolio-details .portfolio-description h2 {
+  .portfolio-details-1 .portfolio-description h2,
+  .portfolio-details-2 .portfolio-description h2,
+  .portfolio-details-3 .portfolio-description h2 {
     width: 100%;
   }
-  .portfolio-details .portfolio-info {
+  .portfolio-details-1 .portfolio-info,
+  .portfolio-details-2 .portfolio-info,
+  .portfolio-details-3 .portfolio-info {
     position: static;
     margin-top: 30px;
   }
